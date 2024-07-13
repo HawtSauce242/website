@@ -35,13 +35,20 @@ h1 {
 }
 
 pre code {
+<<<<<<< HEAD
   background-color: #1a1a1b;
+=======
+  background-color: white;
+>>>>>>> 813a24edf95a4e0d2e654df5de9e106aac3e0993
   border: 3px solid #EF9749;
   display: block;
   padding: 20px;
   width: 25%;
   margin-left: 25px;
+<<<<<<< HEAD
   color: white;
+=======
+>>>>>>> 813a24edf95a4e0d2e654df5de9e106aac3e0993
 }
 
 /* Style the tab */
