@@ -5,12 +5,12 @@
 .container {
   width: 100%;
   overflow-x: hidden;
+  height: 25%
 }
 .horizontal-scrolling-items {
   display: flex;
   color: black;
   font-size: 20px;
-  width: 2600px;
   animation-name: infiniteScroll;
   animation-duration: 12s;
   animation-iteration-count: infinite;
@@ -19,6 +19,7 @@
 }
 .horizontal-scrolling-items__item {
   white-space: nowrap;
+  font-family:  'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -34,12 +35,13 @@ h1 {
 }
 
 pre code {
-  background-color: white;
+  background-color: #1a1a1b;
   border: 3px solid #EF9749;
   display: block;
   padding: 20px;
   width: 25%;
   margin-left: 25px;
+  color: white;
 }
 
 /* Style the tab */
